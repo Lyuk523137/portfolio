@@ -6,7 +6,7 @@ const Homepage = () => {
             {/* IMAGE CONTAINER */}
             <div className="relative w-full h-[40vh] sm:h-[50vh] flex justify-center items-center">
                 <Image
-                    src="/me.jpg"
+                    src="./me.jpg"
                     alt="my photo"
                     fill
                     className="object-contain rounded"

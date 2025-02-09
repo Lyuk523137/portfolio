@@ -94,16 +94,21 @@ export default function Navbar() {
             </div>
             <div className="hidden md:flex gap-4 w-1/3 justify-center">
                 <Link href={"https://github.com/Lyuk523137?tab=repositories"}>
-                    <Image src="/github.png" alt="" width={24} height={24} />
+                    <Image src="./github.png" alt="" width={24} height={24} />
                 </Link>
                 <Link href={"https://github.com/Lyuk523137?tab=repositories"}>
-                    <Image src="/instagram.png" alt="" width={24} height={24} />
+                    <Image
+                        src="./instagram.png"
+                        alt=""
+                        width={24}
+                        height={24}
+                    />
                 </Link>
                 <Link href={"https://github.com/Lyuk523137?tab=repositories"}>
-                    <Image src="/linkedin.png" alt="" width={24} height={24} />
+                    <Image src="./linkedin.png" alt="" width={24} height={24} />
                 </Link>
                 <Link href={"https://github.com/Lyuk523137?tab=repositories"}>
-                    <Image src="/facebook.png" alt="" width={24} height={24} />
+                    <Image src="./facebook.png" alt="" width={24} height={24} />
                 </Link>
             </div>
             {/* RESPONSIVE MENU */}
