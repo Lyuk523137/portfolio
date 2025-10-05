@@ -10,7 +10,7 @@ const links = [
     { url: "/", title: "Home" },
     { url: "/about", title: "About" },
     { url: "/portfolio", title: "Porfolio" },
-    { url: "/contact", title: "Contact" },
+    { url: "/certifications", title: "Certifications" },
 ];
 
 export default function Navbar() {
@@ -85,18 +85,18 @@ export default function Navbar() {
             <div className="md:hidden lg:flex xl:w-1/3 xl:justify-center">
                 <Link
                     href="/"
-                    className=" text-sm bg-black rounded-md p-1 font-semibold flex items-center justify-center ">
-                    <span className="text-white mr-1">Lama</span>
-                    <span className="w-12 h-8 rounded bg-white text-black flex items-center justify-center ">
+                    className=" text-sm light:bg-black rounded-md p-1 font-semibold flex items-center justify-center dark:bg-white ">
+                    <span className="light:text-black drak:text-white mr-1">Home</span>
+                    <span className="w-12 h-8 rounded bg-black text-white flex items-center justify-center ">
                         .dev
                     </span>
                 </Link>
             </div>
             <div className="hidden md:flex gap-4 w-1/3 justify-center">
                 <Link href={"https://github.com/Lyuk523137?tab=repositories"}>
-                    <Image src="./github.png" alt="" width={24} height={24} />
+                    <Image className="bg-white rounded-full" src="./github.png" alt="" width={24} height={24} />
                 </Link>
-                <Link href={"https://github.com/Lyuk523137?tab=repositories"}>
+                <Link href={"https://www.instagram.com/lyukmarchenko/"}>
                     <Image
                         src="./instagram.png"
                         alt=""
@@ -104,7 +104,7 @@ export default function Navbar() {
                         height={24}
                     />
                 </Link>
-                <Link href={"https://github.com/Lyuk523137?tab=repositories"}>
+                <Link href={"https://www.linkedin.com/in/liubomyr-marchenko/"}>
                     <Image src="./linkedin.png" alt="" width={24} height={24} />
                 </Link>
                 <Link href={"https://github.com/Lyuk523137?tab=repositories"}>

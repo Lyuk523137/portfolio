@@ -16,7 +16,7 @@ const NavLink = ({ link }: NavLinkProps) => {
     return (
         <Link
             className={`rounded p-1 ${
-                pathName === link.url && "bg-black text-white"
+                pathName === link.url && "light:bg-black light:text-white dark:bg-white dark:text-black"
             }`}
             href={link.url}>
             {link.title}
