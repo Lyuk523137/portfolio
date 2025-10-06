@@ -33,7 +33,7 @@ const Homepage = () => {
           <button className="p-4 bg-black text-white rounded-lg ring-1 ring-black">
             View my work
           </button>
-          <button className="p-4 rounded-lg ring-1 ring-white/30 text-white/90">
+          <button className="p-4 rounded-lg ring-1 bg-white ring-white/30 text-black/90">
             Contact me
           </button>
         </div>
