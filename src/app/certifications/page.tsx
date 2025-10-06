@@ -108,7 +108,7 @@ export default function CertificationsPage() {
           </select>
           <select
             value={sort}
-            onChange={e => setSort(e.target.value as any)}
+            onChange={e => setSort(e.target.value as "newest" | "oldest")}
             className="rounded-xl border border-slate-300 dark:border-slate-700 bg-white/60 dark:bg-slate-800/50 px-3 py-2"
           >
             <option value="newest">Newest first</option>
