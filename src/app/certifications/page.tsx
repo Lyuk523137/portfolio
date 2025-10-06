@@ -22,7 +22,7 @@ const CERTS: Certification[] = [
     issuer: "Coursera",
     issueDate: "2025-09-21",
     verifyUrl: "https://www.credly.com/badges/6102ff7d-1d33-4bbd-8ead-722323d34547/linked_in_profile",
-    image: "/certificates/Make.png",
+    image: "./certificates/Make.png",
     hours: 120,
     skills: ["React", "CSS", "UI"],
 
@@ -33,7 +33,7 @@ const CERTS: Certification[] = [
     issuer: "LinkedIn Learning",
     issueDate: "2025-6-08",
     verifyUrl: "https://www.linkedin.com/learning/certificates/05a138c10cc07187fa386ab46d474715b022ae92af479fc25903f0eba4f6b434",
-    image: "/certificates/Mozilla.png",
+    image: "./certificates/Mozilla.png",
     skills: ["JavaScript", "Algorithms"],
   },
   {
@@ -43,7 +43,7 @@ const CERTS: Certification[] = [
     issueDate: "2025-03-05",
     expires: "2028-05-22",
     verifyUrl: "https://www.linkedin.com/learning/certificates/6d71d8d56872058cd6cd5324e80ac6108e48b0907d86eeae4cf9a021bc5fb1b4",
-    image: "/certificates/GitHub.png",
+    image: "./certificates/GitHub.png",
     skills: ["Managment", "Cloud", "Code"],
 
   },
@@ -54,7 +54,7 @@ const CERTS: Certification[] = [
     issueDate: "2025-03-05",
     expires: "2027-03-01",
     verifyUrl: "https://verify.skilljar.com/c/tzbvn2zu8qbt",
-    image: "/certificates/Airtable.png",
+    image: "./certificates/Airtable.png",
     skills: ["Databases", "NoCode"],
 
   },

@@ -6,25 +6,25 @@ const PROJECTS = [
   {
     title: "Hangman Game",
     href: "https://lyuk523137.github.io/Hangman/",
-    image: "/previews/Hangman.png", // put your static thumbnail in /public/previews
+    image: "./previews/Hangman.png", // put your static thumbnail in /public/previews
     tech: ["Vite.js", "Tailwind"],
   },
   {
     title: "First Portfolio",
     href: "https://lyuk523137.github.io/Final_Project/",
-    image: "/previews/FirstApp.png",
+    image: "./previews/FirstApp.png",
     tech: ["Sass", "Css", "HTML", "JavaScript"],
   },
   {
     title: "Weather App",
     href: "https://lyuk523137.github.io/my-weather/",
-    image: "/previews/Weather.png",
+    image: "./previews/Weather.png",
     tech: ["React", "API"],
   },
   {
     title: "Music School",
     href: "https://lyuk523137.github.io/Franc/",
-    image: "/previews/Franc.png",
+    image: "./previews/Franc.png",
     tech: ["Vite", "React"],
   },
 ];
