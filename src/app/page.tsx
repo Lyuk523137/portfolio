@@ -8,7 +8,7 @@ const Homepage = () => {
                       h-64 w-64 sm:h-72 sm:w-72 md:h-80 md:w-80 lg:h-96 lg:w-96
                       rounded-full overflow-hidden ring-white/30 shadow-lg">
         <Image
-          src="./Avatar.jpg"           
+          src="./Avatar.JPG"           
           alt="My photo"
           fill
           priority
