@@ -1,6 +1,19 @@
+'use client';
+
 import Image from "next/image";
+import {useRouter} from "next/navigation";
 
 const Homepage = () => {
+
+const router = useRouter();
+const setClick = () => {
+    router.push('/contact');
+}
+const setPortfolio = () => {
+    router.push('/portfolio');
+}
+
+
   return (
     <div className="h-screen flex flex-col px-4 sm:px-8 md:px-12 lg:px-20 xl:px-48 overflow-hidden">
       {/* IMAGE CONTAINER */}
@@ -30,10 +43,10 @@ const Homepage = () => {
         </p>
 
         <div className="flex gap-4 flex-wrap justify-center">
-          <button className="p-4 bg-black text-white rounded-lg ring-1 ring-black">
+          <button onClick={setPortfolio} className="p-4 bg-black text-white rounded-lg ring-1 ring-black">
             View my work
           </button>
-          <button className="p-4 rounded-lg ring-1 bg-white ring-white/30 text-black/90">
+          <button onClick={setClick} className="p-4 rounded-lg ring-1 bg-white ring-white/30 text-black/90">
             Contact me
           </button>
         </div>

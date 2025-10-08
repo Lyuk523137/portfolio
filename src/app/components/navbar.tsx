@@ -11,6 +11,7 @@ const links = [
     { url: "/about", title: "About" },
     { url: "/portfolio", title: "Porfolio" },
     { url: "/certifications", title: "Certifications" },
+    // { url: "/contacts", title: "Contacts" },
 ];
 
 export default function Navbar() {
