@@ -24,7 +24,7 @@ const CERTS: Certification[] = [
     verifyUrl: "https://www.credly.com/badges/6102ff7d-1d33-4bbd-8ead-722323d34547/linked_in_profile",
     image: "./certificates/Make.png",
     hours: 120,
-    skills: ["React", "CSS", "UI"],
+    skills: ["API", "Automatizations", "Functions", "Data Mapping"],
 
   },
   {

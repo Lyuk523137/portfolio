@@ -4,6 +4,12 @@ import PortfolioCarousel from "../components/PortfolioCarousel";
 
 const PROJECTS = [
   {
+    title: "Simba Shop",
+    href: "https://simbashop.netlify.app/",
+    image: "./previews/Shop.png", // put your static thumbnail in /public/previews
+    tech: ["Vite.js", "Bootstrap", "Gsap"],
+  },
+  {
     title: "Hangman Game",
     href: "https://lyuk523137.github.io/Hangman/",
     image: "./previews/Hangman.png", // put your static thumbnail in /public/previews
